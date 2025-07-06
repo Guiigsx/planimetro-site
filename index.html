@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Planímetro</title>
+  <link rel="stylesheet" href="/styles/style.css">
+  <link rel="stylesheet" href="/styles/header.css">
+  <link rel="stylesheet" href="/styles/inicio.css">
+  <link rel="stylesheet" href="/styles/about.css">
+  <link rel="stylesheet" href="/styles/desenvolvimento.css">
+  <link rel="stylesheet" href="/styles/referencia.css">
+  <link rel="stylesheet" href="/styles/contato.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">
+        <img src="/assets/univasf.jpeg" alt="ícone" />
+        <span>Planímetro</span>
+      </div>
+
+      <button class="menu-toggle" id="menu-toggle">&#9776;</button>
+
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#inicio" class="nav-link active">Início</a></li>
+        <li><a href="#about" class="nav-link">Sobre o Projeto</a></li>
+        <li><a href="#desenvolvimento" class="nav-link">Desenvolvimento</a></li>
+        <li><a href="#referencias" class="nav-link">Referências</a></li>
+        <li><a href="#contato" class="nav-link">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+  <section id="inicio">
+    <div class="container">
+
+      <h1 style="font-size: clamp(24px, 10vw, 40px);">Planímetro</h1>
+      <h2>Medindo Áreas com Precisão Matemática</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem
+        placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar
+        vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere.
+        Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.
+      </p>
+      <div class="buttons">
+        <a href="#about" class="btn primary">Explorar Projeto</a>
+        <a href="#desenvolvimento" class="btn secondary">Ver Desenvolvimento</a>
+      </div>
+
+      <div class="video-box">
+        <video autoplay loop muted playsinline width="1000">
+          <source src="/assets/video.mp4" type="video/mp4" />
+          Seu navegador não suporta o elemento de vídeo.
+        </video>
+      </div>
+
+      <div class="cards">
+        <div class="card">
+          <i class="fa-solid fa-ruler"
+            style="margin-right: 5px; margin-bottom: 3vw; color: #2563eb; height:20px; font-size: 3vw;"></i>
+          <h3>Precisão Matemática</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Lorem ipsum dolor sit amet consectetur adipiscing
+            elit.</p>
+        </div>
+        <div class="card">
+          <i class="fa-regular fa-pen-to-square"
+            style="margin-right: 5px; margin-bottom: 3vw; color: #2563eb; height:20px; font-size: 3vw;"></i>
+          <h3>Aplicações Práticas</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Lorem ipsum dolor sit amet consectetur adipiscing
+            elit.</p>
+        </div>
+        <div class="card">
+          <i class="fa-regular fa-map"
+            style="margin-right: 5px; margin-bottom: 3vw; color: #2563eb; height:20px; font-size: 3vw;"></i>
+          <h3>Projeto Acadêmico</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Lorem ipsum dolor sit amet consectetur adipiscing
+            elit.</p>
+        </div>
+      </div>
+
+
+    </div>
+
+  </section>
+
+  <section id="about">
+    <div class="container">
+      <h1 style="font-size: clamp(24px, 5vw, 40px);">Sobre o Projeto</h1>
+
+      <div class="text-card">
+        <h3><i class="fa-solid fa-font-awesome" style="margin-right: 5px; color: #2563eb;"></i>O que é um Planímetro?
+        </h3>
+        <p>
+          Um planímetro é um instrumento mecânico usado para medir a área de uma figura plana de forma irregular.
+          Inventado em 1854 por Jakob Amsler, este dispositivo revolucionou a medição de áreas em mapas, plantas e
+          desenhos técnicos.
+        </p>
+        <p>
+          O instrumento funciona através do traçado do perímetro da figura, convertendo o movimento linear em uma
+          medida de área através de princípios matemáticos fundamentais.
+        </p>
+      </div>
+
+      <div class="text-card">
+        <h3><i class="fa-regular fa-compass" style="margin-right: 5px; color: #2563eb;"></i>Princípios Matemáticos</h3>
+        <h4>Integrais de Linha</h4>
+        <p>
+          O funcionamento do planímetro baseia-se no conceito de integrais de linha. Quando o traçador percorre o
+          perímetro de uma figura, o movimento é convertido em rotação de uma roda medidora.
+        </p>
+        <div class="formula">
+          ⨍ P dx + Q dy = ∬ (∂Q/∂x − ∂P/∂y) dA
+        </div>
+        <hr />
+        <h4>Teorema de Green</h4>
+        <p>
+          O Teorema de Green estabelece a relação entre uma integral de linha ao redor de uma curva fechada e uma
+          integral dupla sobre a região limitada pela curva. Este teorema é fundamental para o funcionamento do
+          planímetro.
+        </p>
+        <hr />
+        <h4>Aplicação Prática</h4>
+        <p>
+          A rotação da roda medidora é proporcional à área da figura traçada, permitindo uma medição direta e precisa
+          sem necessidade de cálculos complexos.
+        </p>
+      </div>
+
+      <div class="text-card">
+        <div class="section-title">
+          <i class="fa-regular fa-bookmark" style="margin-right: 5px; color: #2563eb;"></i>
+          Aplicações Práticas
+        </div>
+
+        <div class="columns">
+          <div class="column">
+            <h4>Engenharia</h4>
+            <ul>
+              <li>Cálculo de áreas de terrenos irregulares</li>
+              <li>Medição de seções transversais</li>
+              <li>Análise de projetos estruturais</li>
+            </ul>
+          </div>
+
+          <div class="column">
+            <h4>Medicina</h4>
+            <ul>
+              <li>Análise de imagens médicas</li>
+              <li>Medição de órgãos em radiografias</li>
+              <li>Estudos anatômicos</li>
+            </ul>
+          </div>
+
+          <div class="column">
+            <h4>Cartografia</h4>
+            <ul>
+              <li>Medição de áreas em mapas</li>
+              <li>Análise de bacias hidrográficas</li>
+              <li>Estudos geográficos e topográficos</li>
+            </ul>
+          </div>
+
+          <div class="column">
+            <h4>Agricultura</h4>
+            <ul>
+              <li>Medição de propriedades rurais</li>
+              <li>Planejamento de cultivos</li>
+              <li>Análise de produtividade</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="text-card">
+        <h2 style="display: flex; align-items: center; gap: 8px;">
+          <img src="/assets/chapeu.png" alt="icon" style="width: 24px;">
+          Professor Orientador
+        </h2>
+
+
+        <div
+          style="display: flex; align-items: center; background-color: #f9fafb; padding: 24px; border-radius: 16px; margin-top: 16px;">
+          <div
+            style="width: 64px; height: 64px; background-color: #2563eb; color: white; display: flex; align-items: center; justify-content: center; font-weight: bold; font-size: 18px; border-radius: 50%; margin-right: 24px;">
+            AL
+          </div>
+          <div style="text-align: start;">
+            <strong>Dr. Alison Marcelo Van Der Laan
+              Melo </strong><br>
+            <span>Professor</span><br>
+            Cálculo Diferencial e Integral III<br>
+            <span style="color: #9ca3af;">bla bla bla bla bla bla bla</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="desenvolvimento">
+    <div class="container">
+      <h1 style="font-size: clamp(24px, 5vw, 40px);">Desenvolvimento</h1>
+
+      <div class="text-card">
+        <h2 style="display: flex; align-items: center; gap: 8px;">
+          <i class="fa-regular fa-folder"
+            style="margin-right: 5px; margin-bottom: 10px; color: #2563eb; height:20px;"></i>
+          Processo de Desenvolvimento
+        </h2>
+
+        <ol class="etapas">
+          <li>
+            <div class="etapa-numero">1</div>
+            <div>
+              <strong>Etapa 1</strong><br>
+              Lorem ipsum dolor sit amet consectetur adipiscing elit.
+            </div>
+          </li>
+          <li>
+            <div class="etapa-numero">2</div>
+            <div>
+              <strong>Etapa 2</strong><br>
+              Lorem ipsum dolor sit amet consectetur adipiscing elit.
+            </div>
+          </li>
+          <li>
+            <div class="etapa-numero">3</div>
+            <div>
+              <strong>Etapa 3</strong><br>
+              Lorem ipsum dolor sit amet consectetur adipiscing elit.
+            </div>
+          </li>
+          <li>
+            <div class="etapa-numero">4</div>
+            <div>
+              <strong>Etapa 4</strong><br>
+              Lorem ipsum dolor sit amet consectetur adipiscing elit.
+            </div>
+          </li>
+          <li>
+            <div class="etapa-numero">5</div>
+            <div>
+              <strong>Etapa 5</strong><br>
+              Lorem ipsum dolor sit amet consectetur adipiscing elit.
+            </div>
+          </li>
+        </ol>
+      </div>
+
+      <div class="text-card">
+        <h2 style="display: flex; align-items: center; gap: 10px; margin-bottom: 16px;">
+          <i class="fa-solid fa-paper-plane" style="color: #2563eb; font-size: 22px;"></i>
+          Materiais Utilizados
+        </h2>
+
+        <div class="materiais-grid">
+          <div class="materiais-coluna">
+            <div class="material-item"><i class="fa-solid fa-tree"></i> 2 madeiras tipo 1 <span>(estrutura do
+                corpo)</span></div>
+            <div class="material-item"><i class="fa-solid fa-tree"></i> 1 madeira tipo 2 <span>(parte do corpo)</span>
+            </div>
+            <div class="material-item"><i class="fa-solid fa-tree"></i> 1 madeira tipo 3 <span>(parte do corpo)</span>
+            </div>
+            <div class="material-item"><i class="fa-solid fa-minimize"></i> 2 hastes cilíndricas <span>(300 mm × 20
+                mm)</span></div>
+            <div class="material-item"><i class="fa-solid fa-screwdriver-wrench"></i> 6 parafusos tipo A <span>(2,5 mm ×
+                30 mm)</span></div>
+          </div>
+
+          <div class="materiais-coluna">
+            <div class="material-item"><i class="fa-solid fa-screwdriver-wrench"></i> 2 parafusos tipo B <span>(3 mm ×
+                50 mm)</span></div>
+            <div class="material-item"><i class="fa-regular fa-circle"></i> Molde <span>(50 mm × 65 mm)</span></div>
+            <div class="material-item"><i class="fa-solid fa-gear"></i> 2 rolamentos <span>(21 mm)</span></div>
+            <div class="material-item"><i class="fa-solid fa-circle-dot"></i> 1 pedaço de cano <span>(45 mm × 25,40
+                mm)</span></div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="materiais-container">
+        <h2>
+          <i class="fa-solid fa-pen-ruler"
+            style="margin-right: 5px; margin-bottom: 10px; color: #2563eb; height:20px;"></i>Materiais Complementares
+        </h2>
+
+        <div class="materiais-grid">
+          <div class="material-card" style="width: 29vw;">
+            <h3>Manual do Planímetro </h3>
+            <p>Este manual tem como objetivo orientar o usuário quanto ao uso correto e seguro do
+              planímetro</p>
+            <a href="assets/MANUAL DO PLANIMETRO.pdf" download class="botao-link">
+              <i class="fas fa-download"></i>
+              Download PDF
+            </a>
+          </div>
+
+         <div class="material-card" style="width: 29vw;">
+            <h3>Vídeo auxiliar</h3>
+            <p>blablablablabla</p>
+            <a href="https://www.youtube.com/watch?v=d_qFCVj7Puw" target="_blank" class="botao-link">
+              <i class="fas fa-up-right-from-square"></i>
+              Acessar
+            </a>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="text-card">
+        <h2 style="display: flex; align-items: center; gap: 8px;">
+          <i class="fa-solid fa-scale-balanced"
+            style="margin-right: 5px; margin-bottom: 10px; color: #2563eb; height:20px;"></i> Documentação Visual
+        </h2>
+
+        <div class="desenvolvimento-grid">
+          <div class="desenvolvimento-card">
+            <img src="/assets/diagrama.jpeg" alt="Diagrama Técnico">
+            <div class="info">
+              <h3>Lorem impsum</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+            </div>
+          </div>
+
+          <div class="desenvolvimento-card">
+            <img src="/assets/processo.jpeg" alt="Processo de Construção">
+            <div class="info">
+              <h3>Processo de Construção</h3>
+              <p>Fotos das etapas de montagem</p>
+            </div>
+          </div>
+
+          <div class="desenvolvimento-card">
+            <img src="/assets/final.jpeg" alt="Protótipo Final">
+            <div class="info">
+              <h3>Protótipo Final</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+            </div>
+          </div>
+
+          <div class="desenvolvimento-card">
+            <video src="/assets/video.mp4" controls></video>
+            <div class="info">
+              <h3>Demonstração</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <section id="referencias">
+    <div class="container">
+      <h1 style="font-size: clamp(24px, 5vw, 40px);">Referência</h1>
+
+      <div class="text-card">
+        <h2 style="display: flex; align-items: center; gap: 8px;">
+          <i class="fa-solid fa-book"
+            style="margin-right: 5px; margin-bottom: 10px; color: #2563eb; height:20px;"></i>Livros e Artigos Acadêmicos
+        </h2>
+
+        <div class="referencia">
+          <p><strong>STEWART, James. <u>Cálculo – Volume 2</u>.</strong> 8ª ed. São Paulo: Cengage Learning, 2017.</p>
+          <p>Capítulos 16 e 17: Integrais de Linha e Teorema de Green</p>
+          <p class="referencia-nota">Referência principal para os fundamentos matemáticos do projeto.</p>
+        </div>
+
+        <div class="referencia">
+          <p><strong>STEWART, James. <u>Cálculo – Volume 2</u>.</strong> 8ª ed. São Paulo: Cengage Learning, 2017.</p>
+          <p>Capítulos 16 e 17: Integrais de Linha e Teorema de Green</p>
+          <p class="referencia-nota">Referência principal para os fundamentos matemáticos do projeto.</p>
+        </div>
+
+        <div class="referencia">
+          <p><strong>STEWART, James. <u>Cálculo – Volume 2</u>.</strong> 8ª ed. São Paulo: Cengage Learning, 2017.</p>
+          <p>Capítulos 16 e 17: Integrais de Linha e Teorema de Green</p>
+          <p class="referencia-nota">Referência principal para os fundamentos matemáticos do projeto.</p>
+        </div>
+
+      </div>
+
+      <div class="text-card">
+        <h2 style="display: flex; align-items: center; gap: 8px;">
+          <i class="fa-solid fa-earth-americas"
+            style="margin-right: 5px; margin-bottom: 10px; color: #2563eb; height:20px;"></i>Recursos Online
+        </h2>
+
+        <div class="recurso-item">
+          <div>
+            <strong>Academia.edu - Planimeter</strong>
+            <p>Artigo sobre o planímetro como ferramenta para cálculo de área</p>
+          </div>
+          <a href="https://www.academia.edu/99504429/Planimeter_A_Magical_Tool_to_Calculate_Area" target="_blank"
+            class="btn-acessar">
+            <i class="fas fa-up-right-from-square" style="margin-right: 5px;"></i>
+            <span class="btn-text">Acessar</span>
+          </a>
+        </div>
+
+        <div class="recurso-item">
+          <div>
+            <strong>Instructables - DIY Planimeter</strong>
+            <p>Tutorial prático para construção de um planímetro e pantógrafo</p>
+          </div>
+          <a href="https://www.instructables.com/DIY-Planimeter-and-PentographA-Study-of-Basic-Term/" target="_blank"
+            class="btn-acessar">
+            <i class="fas fa-up-right-from-square" style="margin-right: 5px;"></i>
+            <span class="btn-text">Acessar</span>
+          </a>
+        </div>
+
+        <div class="recurso-item">
+          <div>
+            <strong>MathWorld - Teorema de Green</strong>
+            <p>Definições formais e implicações do Teorema de Green</p>
+          </div>
+          <a href="https://mathworld.wolfram.com/GreensTheorem.html" target="_blank" class="btn-acessar">
+            <i class="fas fa-up-right-from-square" style="margin-right: 5px;"></i>
+            <span class="btn-text">Acessar</span>
+          </a>
+        </div>
+
+        <div class="recurso-item">
+          <div>
+            <strong>SpringerLink - Livro sobre Cálculo</strong>
+            <p>Capítulos sobre cálculo multivariável e aplicações matemáticas</p>
+          </div>
+          <a href="https://link.springer.com/book/10.1007/978-3-662-46221-8" target="_blank" class="btn-acessar">
+            <i class="fas fa-up-right-from-square" style="margin-right: 5px;"></i>
+            <span class="btn-text">Acessar</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contato">
+    <h1 style="font-size: clamp(24px, 5vw, 40px);">Contato</h1>
+    <div class="text-card">
+      <h2><i class="fa-solid fa-envelope"
+          style="margin-right: 5px; margin-bottom: 10px; color: #2563eb; height:20px;"></i>Informações de contato</h2>
+      <div class="referencia">
+        <p><strong>Professor Orientador</strong></p>
+        <p>Prof. Dr. Alisson Ferreira da Costa</p>
+        <p>E-mail: <a href="mailto:alisson.costa@universidade.edu.br">alisson.costa@universidade.edu.br</a></p>
+        <p>Departamento de Ciências Exatas</p>
+      </div>
+
+      <div style="margin-top: 32px;">
+        <p><i class="fa-regular fa-user"
+            style="margin-right: 5px; margin-bottom: 10px; color: #2563eb; height:20px;"></i><strong>Alunos
+            Participantes</strong></p>
+        <div class="alunos-grid">
+          <div class="aluno">Aluno 1</div>
+          <div class="aluno">Aluno 2</div>
+          <div class="aluno">Aluno 3</div>
+          <div class="aluno">Aluno 4</div>
+          <div class="aluno">Aluno 5</div>
+          <div class="aluno">Aluno 6</div>
+          <div class="aluno">Aluno 7</div>
+          <div class="aluno">Aluno 8</div>
+          <div class="aluno">Aluno 9</div>
+          <div class="aluno">Aluno 10</div>
+          <div class="aluno">Aluno 11</div>
+          <div class="aluno">Aluno 12</div>
+          <div class="aluno">Aluno 13</div>
+          <div class="aluno">Aluno 14</div>
+          <div class="aluno">Aluno 15</div>
+          <div class="aluno">Aluno 16</div>
+          <div class="aluno">Aluno 17</div>
+          <div class="aluno">Aluno 18</div>
+          <div class="aluno">Aluno 19</div>
+          <div class="aluno">Aluno 20</div>
+          <div class="aluno">Aluno 21</div>
+          <div class="aluno">Aluno 22</div>
+          <div class="aluno">Aluno 23</div>
+          <div class="aluno">Aluno 24</div>
+          <div class="aluno">Aluno 25</div>
+        </div>
+
+        <div style="margin-top: 40px;">
+          <p><i class="fa-solid fa-mug-hot"
+              style="margin-right: 5px; margin-bottom: 10px; color: #2563eb; height:20px;"></i><strong>Contribuições</strong>
+          </p>
+          <p>
+            Este site foi desenvolvido como parte de um projeto acadêmico.<br> Todo o código-fonte está disponível
+            publicamente para fins de consulta, estudo ou reutilização.
+          </p>
+          <a href="https://github.com/Guiigsx/planimetro-site" target="_blank" class="btn-acessar" style="margin-top: 10px;">
+            <i class="fas fa-up-right-from-square" style="margin-right: 5px;"></i>
+            <span class="btn-text""></i> Acessar</span>
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+
+
+</body>
+<script>
+  const links = document.querySelectorAll('.nav-link')
+  const toggleBtn = document.getElementById('menu-toggle')
+  const navLinks = document.getElementById('nav-links')
+
+  links.forEach(link => {
+    link.addEventListener('click', () => {
+      links.forEach(l => l.classList.remove('active'))
+      link.classList.add('active')
+      navLinks.classList.remove('show')
+      toggleBtn.classList.remove('active')
+    })
+  })
+
+  toggleBtn.addEventListener('click', () => {
+    navLinks.classList.toggle('show')
+    toggleBtn.classList.toggle('active')
+  })
+
+</script>
+
+</html>

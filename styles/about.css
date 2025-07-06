@@ -1,0 +1,58 @@
+.text-card .formula {
+  background-color: #f0f6ff;
+  padding: 16px;
+  border-radius: 8px;
+  margin-top: 16px;
+  font-size: 16px;
+  color: #1e3a8a;
+}
+
+.text-card hr {
+  border: none;
+  border-top: 1px solid #e5e7eb;
+  margin: 24px 0;
+}
+
+.text-card .section-title {
+  display: flex;
+  align-items: center;
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 24px;
+  color: #111827;
+}
+
+.text-card .section-title img {
+  width: 24px;
+  height: 24px;
+  margin-right: 12px;
+}
+
+.text-card .columns {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.text-card .column {
+  flex: 1 1 200px;
+  min-width: 180px;
+}
+
+.text-card .column h4 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: #111827;
+}
+
+.text-card .column ul {
+  padding-left: 20px;
+  list-style-type: disc;
+  color: #374151;
+}
+
+.text-card .column li {
+  margin-bottom: 6px;
+  font-size: 15px;
+}

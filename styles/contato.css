@@ -1,0 +1,27 @@
+.aluno {
+  background-color: #f3f4f6;
+  padding: 8px 12px;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.alunos-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 12px;
+  margin-top: 16px;
+}
+
+@media (max-width: 900px) {
+  .alunos-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .alunos-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
